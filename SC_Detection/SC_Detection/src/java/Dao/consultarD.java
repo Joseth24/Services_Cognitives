@@ -48,7 +48,7 @@ public class consultarD {
             double calvo = pelo.get("bald").getAsDouble();
             String invisible = pelo.get("invisible").getAsString();
             String nameEmotion = null;
-            int valueEmotion = 0;
+            int valueEmotion = 0;          
             for (String valores : emocion) {
                 if (valueEmotion < emotion.get(valores).getAsInt()) {
                     nameEmotion = valores;
